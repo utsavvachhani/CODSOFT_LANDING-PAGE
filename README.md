@@ -1,6 +1,5 @@
 Responsive App Page with Toggle Theme
   This project is a personal or academic project showcasing a responsive web page with a toggle theme (light and dark mode) feature. It uses HTML, CSS, and JavaScript.
-
 Features
 
 **Responsive Design**: Works on various devices including desktops, tablets, and smartphones.
@@ -14,3 +13,6 @@ Technologies Used
 HTML
 CSS
 JavaScript
+
+live Demo : 
+

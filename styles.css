@@ -18,21 +18,19 @@
   --link-color: #333333;
   --div-color: #f37f72;
   --link-hover-color: #e74c3c;
-  --section-background-color: linear-gradient(135deg, #333333 0%, #e74c3c 100%);
-}
+  --section-background-color: linear-gradient(135deg, #333333 0%, #e74c3c 100%);}
 
 .dark-mode {
   --background-color: #121212;
   --text-color: #ffffff;
   --header-background: #1e1e1e;
   --header-text-color: #ffffff;
-  --btn-background: #bb86fc;
+  --btn-background: #3498db;
   --btn-text-color: #121212;
-  --card-color: #bb86fc;
+  --card-color: #3498db;
   --link-color: #ffffff;
-  --div-color: #8e42eb;
-  --link-hover-color: #bb86fc;
-  --section-background-color: linear-gradient(135deg, #333333 0%, #bb86fc 100%);
+  --link-hover-color: #2980b9;
+  --section-background-color: linear-gradient(135deg, #333333 0%, #3498db 100%);
 }
 
 body {
@@ -101,12 +99,9 @@ nav ul {
 /* Hero Section */
 #hero {
   background: var(--section-background-color);
+  padding: 100px 2rem;
   color: #ffffff;
-  padding: 5rem 2rem;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 h1 {
@@ -124,80 +119,94 @@ section {
   padding: 5rem 2rem;
   text-align: center;
 }
-
-.div-about{
-  background-color: var(--div-color);
+.line{
+  height: 5px;
+  width: 100%;
+  background-color: var(--btn-background);
+}
+.div-about {
+  background-color: var(--link-hover-color);
   color: var(--text-color);
   border-radius: 8px;
-  border-color: #1e1e1e;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.div-about h2{
-  padding: 3rem;
+.div-about h2 {
+  padding: 1rem;
 }
 
-.div-about p{
-  padding: 0.5rem 6rem;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.div-about p {
+  padding: 0.5rem 2rem;
 }
 
 #about, #classes, #trainers, #contact {
-  padding: 5rem 2rem;
-  text-align: center;
+  padding: 50px 2rem;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 20px;
 }
 
 .card {
   background-color: var(--card-color);
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
+  max-width: 300px;
+  padding: 20px;
   text-align: center;
-  width: calc(33.333% - 4rem);
-  max-width: 320px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
 }
 
 .icon img {
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
+  object-fit: cover;
+  margin-bottom: 15px;
 }
 
-.desc h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.desc p {
-  font-size: 1.2rem;
+form {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-#contact form {
-  display: flex;
-  flex-direction: column;
+.form-group {
+  margin-bottom: 15px;
 }
 
-.form-control, .input-textarea {
-  padding: 1rem;
-  /* font-size: 1.2rem; */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
   border: 1px solid #dddddd;
   border-radius: 5px;
+  margin-bottom: 15px;
 }
 
-label{
-  padding: 1rem;
+input[type="submit"] {
+  background-color: var(--btn-background);
+  color: var(--btn-text-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.input-textarea {
-  resize: vertical;
+input[type="submit"]:hover {
+  background-color: var(--link-hover-color);
 }
 
 /* Footer Styles */
@@ -227,18 +236,14 @@ footer ul li a:hover {
   text-decoration: underline;
 }
 
-
 #footer-info {
   flex: 2;
   display: flex;
   justify-content: center;
 }
 
-#footer-info ul {
-  flex-wrap: wrap;
-}
 @media (max-width: 768px) {
-  /* Make the layout responsive */
+  /* Responsive Layout */
   nav ul {
     flex-direction: column;
     align-items: center;
@@ -250,8 +255,7 @@ footer ul li a:hover {
 
   header {
     flex-direction: column;
-    /* align-items: flex-start; */
-    position:relative;
+    position: relative;
   }
 
   .card {
@@ -259,9 +263,10 @@ footer ul li a:hover {
     max-width: none;
   }
 
-  .div-about p{
+  .div-about p {
     padding: 0rem;
   }
+
   h1 {
     font-size: 2.4rem;
   }

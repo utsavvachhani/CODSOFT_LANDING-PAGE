@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UV - Fitness Gym</title>
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A product landing page for a medication reminder app created for the FreeCodeCamp's Responsive Web Design Certification.">
-  <title>Remedi Mobile App</title>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const toggleButton = document.getElementById('theme-toggle');
@@ -14,212 +13,156 @@
         document.body.classList.toggle('dark-mode');
       });
     });
-    </script>
-    
-</head>
 
+    function thankYou(){
+      alert(`WE call You As Soon As Possible!!!`);
+    }
+  </script>
+</head>
 <body>
 
+  <!-- Header Section -->
   <header id="header">
     <div class="logo">
-      <img class="logo-img" id="header-img" src="images/logo_horizontal.svg" alt="Remedi logo" />
+      <img class="logo-img" id="header-img" src="images/gym_logo.jpg" alt="UV - Fitness Gym Logo" />
     </div>
     <nav id="nav-bar">
       <ul>
-        <li><a class="nav-link" href="#why">Why</a></li>
-        <li><a class="nav-link" href="#features">Features</a></li>
-        <li><a class="nav-link" href="#download">Download</a></li>
+        <li><a class="nav-link" href="#about">About Us</a></li>
+        <li><a class="nav-link" href="#classes">Classes</a></li>
+        <li><a class="nav-link" href="#trainers">Trainers</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <button id="theme-toggle" class="btn">Toggle Theme</button>
+    <button id="theme-toggle" class="btn">Dark Mode</button>
   </header>
-  
 
-<main>
+  <!-- Hero Section -->
   <section id="hero">
     <div class="grid">
       <div class="column-60">
-        <h1>Your personal medication reminder app </h1>
-        <p id="description">Spend less time thinking about medications and focus on other important things in life.</p>
-        <button class="btn">Download</button>
-      </div>
-      <div class="column-40">
-         <div class="image-div">
-          <img id="hero-img" src="images/RemediApp.png" alt="Remedi mobile app" width="270" height="497">
-        </div>
+        <h1>Transform Your Body, Mind, and Spirit</h1>
+        <p id="description">Join UV - Fitness Gym and embark on a journey to a healthier and stronger you.</p>
+        <button class="btn" clickon="#contact">Join Now</button>
       </div>
     </div>
-
   </section>
 
-  <section id="why">
-    <h2>Why you should choose Remedi App</h2>
+  <!-- About Section -->
+  <section id="about">
+    <div class="div-about">
+      <h2>About    UV - Fitness Gym</h2>
+      <p>UV - Fitness Gym offers a comprehensive fitness experience with state-of-the-art equipment, expert trainers, and a wide range of classes.</p>
+      <p>Whether you're looking to lose weight, build muscle, or simply maintain a healthy lifestyle, our gym has something for everyone.</p>
+    </div>
+  </section>
+
+  <!-- Classes Section -->
+  <section id="classes">
+    <h2>Our Classes</h2>
     <div class="container">
       <div class="card">
         <div class="icon">
-          <img src="images/easyToUse.svg" alt="easy to use icon">
+          <img src="/images/yogaClass.jpeg" alt="Yoga Class">
         </div>
         <div class="desc">
-          <h3>Easy to Use</h3>
-          <p>Manage your medications with our user-friendly app. Get personalized reminders on time and stay connected to your caregivers.
-          </p>
+          <h3>Yoga</h3>
+          <p>Enhance your flexibility and mindfulness with our yoga classes.</p>
         </div>
       </div>
 
       <div class="card">
         <div class="icon">
-          <img src="images/dataPrivacy.svg" alt="data privacy icon">
+          <img src="/images/Weightlifting.jpeg" alt="Weightlifting Class">
         </div>
         <div class="desc">
-          <h3>Data Privacy</h3>
-          <p>Your health is a private matter. We will never hand over your personal data to third parties.
-          </p>
+          <h3>Weightlifting</h3>
+          <p>Build strength and muscle with our expert-led weightlifting classes.</p>
         </div>
       </div>
 
       <div class="card">
         <div class="icon">
-          <img src="images/research.svg" alt="data privacy icon">
+          <img src="/images/Cardio.jpg" alt="Cardio Class">
         </div>
         <div class="desc">
-          <h3>Research</h3>
-          <p>We use data gathered through our app to improve the healthcare system. We work together with healthcare companies who support us with scientific analyses of aggregated data.
-          </p>
+          <h3>Cardio</h3>
+          <p>Boost your heart health and stamina with high-energy cardio workouts.</p>
         </div>
       </div>
-
     </div>
   </section>
 
-  <section id="features">
-    <h2>Awesome Key Features</h2>
-    <div class="grid">
-      <div class="column-40">
-        <div class="image-div">
-          <img src="images/RemediApp.png" alt="Remedi mobile app" width="270" height="497">
-        </div>
-      </div>
-
-      <div class="column-60">
-        <ol>
-          <li>
-            <h3 id="pills">Med and refill reminders</h3>
-            <p>Schedule your med reminders, track taken and missed doses and set refill reminders.</p>
-          </li>
-          <li>
-            <h3 id="med-report">Medication adherence reports</h3>
-            <p>Check your weekly and monthly adherence rates based on the number of taken and missed doses.</p>
-          </li>
-          <li>
-            <h3 id="family">Teamwork</h3>
-            <p>Add your most trusted family members and friends to send them a notification if you accidentally miss a medication.</p>
-          </li>
-          <li>
-            <h3 id="doctor-icon">Communicate with Your Doctor</h3>
-            <p>Show your doctor how your health has progressed since the last appointment.</p>
-          </li>
-        </ol>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="info">
-    <div>
-      <h2>Medication Adherence</h2>
-      <p>Medication adherence is the extent to which a person’s behaviour (taking medication, following a diet, and/or executing lifestyle changes) corresponds with agreed recommendations from a health care provider</p>
-      <p>A World Health Organization report on adherence to long-term therapies suggests that patients adhere to only 50% of drugs prescribed for chronic diseases in developed nations, a figure that is even lower in developing countries.</p>
-    </div>
-    <iframe id="video" height="315" src="https://www.youtube.com/embed/jccBSbyActg?rel=0&amp;controls=0&amp;showinfo=0" allowfullscreen></iframe>
-  </section>
-
-  <section id="download">
-    <h2>Download Remedi App</h2>
+  <!-- Trainers Section -->
+  <section id="trainers">
+    <h2>Meet Our Trainers</h2>
     <div class="container">
-      <div class="card" id="patient">
-        <div class="product-logo">
-          <img class="logo-img" src="images/logo_horizontal.svg" alt="Remedi logo">
+      <div class="card">
+        <div class="icon">
+          <img src="/images/Jhon Maliya.jpg" alt="Trainer 1">
         </div>
         <div class="desc">
-          <h3>Features</h3>
-          <ol>
-            <li>Easily customizable pill reminders</li>
-            <li>Family and caregiver support</li>
-            <li>Doctor appointment manager</li>
-            <li>Track health measurements for various medical conditions</li>
-            <li>Weekly & monthly med reports to share with your doctor</li>
-          </ol>
+          <h3>Jhon Maliya</h3>
+          <p>Specialist in Strength Training</p>
         </div>
-        <button class="btn">Download</button>
       </div>
 
-      <div class="card" id="doctor">
-        <div class="product-logo">
-          <img class="logo-img" src="images/logo_doctors.svg" alt="Remedi for doctors logo">
+      <div class="card">
+        <div class="icon">
+          <img src="/images/Krupa Rupani.jpg" alt="Trainer 2">
         </div>
         <div class="desc">
-          <h3>Features</h3>
-          <ol>
-            <li>Unlimited patient list</li>
-            <li>Patient Medical Records</li>
-            <li>Create and keep track of patient's appointments</li>
-            <li>Cross-user and cross-device syncing</li>
-            <li>Secure encrypted cloud for saving clinical data</li>
-          </ol>
+          <h3>Disha Vishu</h3>
+          <p>Yoga and Mindfulness Coach</p>
         </div>
-        <button class="btn">Download</button>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="/images/Disha Vishu.jpeg" alt="Trainer 3">
+        </div>
+        <div class="desc">
+          <h3>Disha Vishu</h3>
+          <p>Cardio and HIIT Expert</p>
+        </div>
       </div>
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
-    <h2>Contact</h2>
-    <div class="grid">
-      <div class="column-60">
-        <form id="form" action="https://www.youtube.com/@Journey-Joys-1734">
-          <div class="form-group">
-            <label id="name-label" for="name">Name</label>
-            <input type="text" name="name" class="form-control" id="name" placeholder="Name" required />
-          </div>
-          <div class="form-group">
-            <label id="email-label" for="email">Email</label>
-            <input name="email" class="form-control" id="email" type="email" placeholder="Email address" required />
-          </div>
-          <div class="form-group">
-            <p>Message</p>
-            <textarea id="message" class="input-textarea" name="message" placeholder="Enter your message here..."></textarea>
-          </div>
-          <div class="form-group">
-            <label id="submit-label" for="submit"></label>
-            <input id="submit" type="submit" value="Submit" class="btn" />
-          </div>
-        </form>
+    <h2>Contact Us</h2>
+    <form id="form" action="">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
       </div>
-
-      <div class="column-40">
-        <div class="image-div">
-          <img src="images/contact.svg" alt="Contact icon" width="472" height="495">
-        </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input name="email" class="form-control" id="email" type="email" placeholder="Your Email" required />
       </div>
-    </div>
+      <div class="form-group">
+        <p>Message</p>
+        <textarea id="message" class="input-textarea" name="message" placeholder="Enter your message here..." required></textarea>
+      </div>
+      <input id="submit" type="submit" value="Send Message" class="btn" />
+    </form>
   </section>
 
+  <!-- Footer Section -->
   <footer>
-    <div id="footer-logo">
-      <img class="logo-img" src="images/logo_white.svg" alt="Remedi logo" />
-    </div>
+    <!-- <div id="footer-logo">
+      <img class="logo-img" src="images/gym_logo.jpg" alt="UV - Fitness Gym Logo" />
+    </div> -->
     <div id="footer-info">
       <ul>
         <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Costumer Support</a></li>
+        <li><a href="#">Terms of Service</a></li>
         <li><a href="#">Contact</a></li>
+        <div id="copyright">© 2024 UV - Fitness Gym</div>
       </ul>
-      <div id="copyright">Copyright 2024, Remedi</div>
     </div>
   </footer>
-
-</main>
-
+  
 </body>
-
 </html>

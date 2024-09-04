@@ -41,3 +41,17 @@ Contributing
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://utsavvachhani.github.io/CODSOFT_LANDING-PAGE/LICENSE) file for details.
+
+
+
+## Photos :
+
+![fram-1](https://github.com/user-attachments/assets/a1438590-13dc-4ac9-b967-98c67dd60bfa)
+![fram-2](https://github.com/user-attachments/assets/90b7c118-f83b-4dbb-a17f-cff2cbc57899)
+![fram-3](https://github.com/user-attachments/assets/8ccfe1d7-1742-4eea-a66a-de7ffda66fcd)
+![fram-4](https://github.com/user-attachments/assets/f1087e1c-f7e5-49fd-8150-a631c1ea6883)
+![fram-5](https://github.com/user-attachments/assets/8391b4b8-3ee0-4eeb-8cf8-60143bcea45b)
+![fram-6](https://github.com/user-attachments/assets/4a21da8e-72ba-45db-98fb-43e44e779eef)
+![fram-7](https://github.com/user-attachments/assets/688fbd62-3a5c-4bea-8c8b-22860156a79b)
+![fram-8](https://github.com/user-attachments/assets/d0a79109-781b-45ae-80d4-1462ec30d83c)
+![fram-9](https://github.com/user-attachments/assets/94b658de-8957-4375-9069-25d625933b7e)

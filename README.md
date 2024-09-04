@@ -18,10 +18,10 @@ Check out the live demo of the landing page here: [Live Demo](https://utsavvachh
 ## Video Previews
 
 ### Laptop View
-- [Watch on YouTube](https://utsavvachhani.github.io/CODSOFT_LANDING-PAGE/images/Task%20-%201_leptop.mp4)
+- [Watch on Web](https://utsavvachhani.github.io/CODSOFT_LANDING-PAGE/images/Task%20-%201_leptop.mp4)
   
 ### Phone View
-- [Watch on YouTube](https://utsavvachhani.github.io/CODSOFT_LANDING-PAGE/images/Task%20-%201_phone.mp4)
+- [Watch on Web](https://utsavvachhani.github.io/CODSOFT_LANDING-PAGE/images/Task%20-%201_phone.mp4)
 
 ## Getting Started
 

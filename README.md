@@ -1,4 +1,4 @@
-# Landing Page Project
+# Landing Page Project at CODESOFT
 
 ## Project Overview
 
